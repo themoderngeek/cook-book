@@ -3,7 +3,6 @@ package uk.co.themoderngeek.cookbook.domain;
 import java.util.Collections;
 import java.util.List;
 
-
 public class Recipe {
 
     private List<Ingredient> ingredients;
@@ -11,10 +10,6 @@ public class Recipe {
     private List<String> steps;
 
     private String name;
-
-    private Recipe() {
-
-    }
 
     public Recipe(Builder builder) {
         this.ingredients = builder.ingredients;
@@ -73,4 +68,3 @@ public class Recipe {
         }
     }
 }
-

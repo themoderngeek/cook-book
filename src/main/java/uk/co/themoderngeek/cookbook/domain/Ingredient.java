@@ -8,10 +8,6 @@ public class Ingredient {
 
     private String unit;
 
-    private Ingredient() {
-
-    }
-
     public Ingredient(Builder builder) {
         this.name = builder.name;
         this.amount = builder.amount;
@@ -65,4 +61,3 @@ public class Ingredient {
         }
     }
 }
-
