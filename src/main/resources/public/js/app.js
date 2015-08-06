@@ -6,6 +6,6 @@
         $http.get("/recipe/1").success(function(data) {
             $scope.recipe = data;
         });
-
     });
+
 })();
